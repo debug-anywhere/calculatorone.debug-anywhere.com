@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://calculatorone.debug-anywhere.com/sitemap.xml

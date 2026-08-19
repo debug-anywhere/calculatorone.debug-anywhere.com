@@ -94,10 +94,13 @@ h1 { max-width: 700px; margin: 0; font-size: clamp(48px, 7vw, 86px); }
 .section-head h2 { margin: 0 0 14px; font-size: clamp(34px, 5vw, 54px); }
 .section-head p { margin: 0; color: var(--muted); font-size: 18px; }
 .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; border: 1px solid var(--line); background: var(--line); }
-.feature { min-height: 240px; padding: 34px; background: var(--white); }
+.feature { min-height: 220px; padding: 34px; background: var(--white); }
 .feature-mark { width: 30px; height: 5px; margin-bottom: 28px; background: var(--orange); }
 .feature:nth-child(2) .feature-mark { background: var(--blue); }
 .feature:nth-child(3) .feature-mark { background: #3ea86a; }
+.feature:nth-child(4) .feature-mark { background: #9b6cff; }
+.feature:nth-child(5) .feature-mark { background: #e24f75; }
+.feature:nth-child(6) .feature-mark { background: #4c9fce; }
 .feature h3 { margin: 0 0 12px; font-size: 23px; }
 .feature p { margin: 0; color: var(--muted); }
 
